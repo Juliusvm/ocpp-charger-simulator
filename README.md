@@ -1,5 +1,8 @@
 
+# How to deploy
 
+#### Will be deployed automatically when pushed to main (Azure connected to bitbucket)
+https://portal.azure.com/#@mer.eco/resource/subscriptions/9ed59bc3-d4e6-48d9-8959-d5adb0e4d978/resourcegroups/ocpp-charger-simulator/providers/Microsoft.Web/sites/cor-mer-ocpp-charger-simulator/appServices
 # How to run
 
 
@@ -7,7 +10,7 @@
 **2.** Select the charge point you want
 
 **3.** Start the node server by executing  node remote-charge.js and **leave it running!**  
-**4.** Call the endpoint http://localhost:3000/plug with POST method and a body including
+**4.** Call the endpoint http://localhost:3000/plug with POST method and a body including  
 {
 "wssUrl": "web-socket-url"
 }
